@@ -1,6 +1,6 @@
 # Groovin Template
 
-This is a Template Personal Portfolio Named as Alex Smith. It was created as a practice on  HTML and Bootstrap
+This is a simple template. It was created as a practice on  HTML and Bootstrap
 
 # Demo :
 
@@ -13,7 +13,7 @@ https://asmaa-abdo22.github.io/Groovin-Template/
 # Technologies used :
 
 * HTML
-* Css
+* CSS
 * Bootstrap
 * Font Awesome
-* Animate css
+* Animate CSS
