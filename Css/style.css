@@ -1,0 +1,216 @@
+:root {
+  --main-color: #5c9f24;
+}
+html {
+  scroll-padding-top: 56px;
+}
+textarea {
+  max-height: 200px;
+  width: 100%;
+  resize: vertical;
+}
+.bg-greyy {
+  background-color: #f9f9f9;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #2d2b2b;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.mainColor {
+  color: var(--main-color);
+}
+.w-fit {
+  width: fit-content;
+}
+.cursor-POINTER {
+  cursor: pointer;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-inline: 15px;
+  background-color: var(--main-color);
+}
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.carousel-indicators .active {
+  background-color: var(--main-color);
+}
+.bg-blackk {
+  background-color: rgba(0, 0, 0, 0.769);
+}
+.form-control {
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: 0;
+}
+.form-control:focus {
+  border-color: var(--main-color);
+  outline: 0;
+  box-shadow: none;
+}
+/* ^---------------Navbar----------- */
+
+nav .nav-link {
+  margin-inline: 0.625rem;
+  position: relative;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+nav .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1.3px;
+  background-color: var(--main-color);
+  left: 0px;
+  bottom: 2px;
+  transition: width 0.3s ease-in-out;
+}
+nav .nav-link:hover {
+  color: white;
+}
+nav .nav-link:hover::after {
+  width: 100%;
+}
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .nav-link.show {
+  color: white;
+}
+nav .navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+/* ^---------------HEADER----------- */
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+.carousel-item {
+  background-size: cover;
+  background-position: center;
+}
+.carousel-item {
+  padding-top: 56px;
+}
+.btn-main {
+  padding-inline: 20px;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--main-color);
+  --bs-btn-border-color: var(--main-color);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #3b6f10;
+  --bs-btn-hover-border-color: #3b6f10;
+  --bs-btn-active-bg: #3b6f10;
+  --bs-btn-active-border-color: #3b6f10;
+}
+
+/* ^---------------QUESTIONS----------- */
+.accordion {
+  --bs-accordion-color: var(--bs-body-color);
+  --bs-accordion-bg: #f2f2f2;
+  --bs-accordion-border-radius: 0;
+  --bs-accordion-btn-focus-border-color: none;
+  --bs-accordion-btn-focus-box-shadow: 0;
+  --bs-accordion-active-color: white;
+  --bs-accordion-active-bg: var(--main-color);
+}
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.accordion-item {
+  color: white;
+  background-color: var(--main-color);
+  border: 0;
+  margin-block: 20px;
+}
+.accordion-item button:hover {
+  color: var(--main-color);
+}
+.accordion-button:focus {
+  border: 1px solid white;
+}
+.accordion-button:not(.collapsed),
+.accordion-button:not(.collapsed):hover {
+  color: white;
+  background-color: var(--bs-accordion-active-bg);
+}
+/* ^---------------PRODUCTS----------- */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: var(--main-color);
+}
+.products .nav-link {
+  margin-inline: 10px;
+  color: black;
+}
+.products .nav-link:hover {
+  color: white;
+  background-color: var(--main-color);
+}
+.products .item {
+  position: relative;
+  overflow: hidden;
+}
+.products .item:hover .item-layer {
+  opacity: 1;
+}
+.products .item:hover img {
+  scale: 1.2;
+}
+.products .item img {
+  transition: 0.5s scale;
+}
+.products .item .item-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.826);
+  padding: 15px;
+  transition: 0.5s opacity;
+}
+/* ^---------------CONTACT----------- */
+.phone {
+  border-inline: 1px solid rgb(170, 162, 162);
+}
+@media (max-width: 575.98px) {
+  .phone {
+    border-inline: none;
+    border-block: 1px solid rgb(170, 162, 162);
+    padding-block: 20px;
+  }
+
+  .contact-form > div {
+    flex-direction: column;
+  }
+}
+.contact-form {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}

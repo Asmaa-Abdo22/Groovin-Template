@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groovin</title>
+    <!-- &---------FAV ICON--------- -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- &---------Font Awesome--------- -->
+    <link rel="stylesheet" href="Css/all.min.css">
+    <!-- &---------Bootstrap css--------- -->
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!-- &---------Animate css--------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- &---------Main css file--------- -->
+    <link rel="stylesheet" href="Css/style.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <!-- ~-----------NAVBAR---------- -->
+
+    <nav class="navbar navbar-expand-lg bg-blackk navbar-dark  fixed-top" id="navbar-example" >
+        <div class="container">
+            <a class="navbar-brand  fw-bolder text-white" href="index.html">GROOVIN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#questions">FAQ</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">PRODUCTS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- ~-----------HEADER---------- -->
+    <header id="header">
+        <div class="container-fluid ">
+
+
+            <div id="carouselExampleIndicators" class="carousel slide  vh-100" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+
+                <div class="carousel-inner vh-100 text-white">
+                    <div class="carousel-item active h-100"
+                        style="background-image: linear-gradient(rgba(0, 0, 0, 0.509), rgba(0, 0, 0, 0.541)),url('images/slide-1.jpg');">
+                        <div class=" h-100 gap-3  d-flex justify-content-center align-items-center flex-column">
+                            <h2
+                                class="display-4 text-center fw-bold text-capitalize animate__animated animate__slideInDown">
+                                We are
+                                professional</h2>
+                            <p class="w-50 text-center animate__animated animate__slideInDown">Lorem ipsum dolor sit
+                                amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <button class="animate__animated animate__slideInUp text-uppercase btn btn-main">Get
+                                Started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item  h-100"
+                        style="background-image: linear-gradient(rgba(0, 0, 0, 0.509), rgba(0, 0, 0, 0.541)),url('images/slide-2.jpg');">
+                        <div class=" h-100 gap-3  d-flex justify-content-center align-items-center flex-column">
+                            <h2
+                                class="display-4 text-center fw-bold text-capitalize animate__animated animate__slideInDown">
+                                At vero
+                                eos et accusamus</h2>
+                            <p class="w-50 text-center animate__animated animate__slideInDown">Nam libero tempore, cum
+                                soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat
+                                facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem
+                                quibusdam et aut officiis debitis aut.</p>
+                            <button class="animate__animated animate__slideInUp text-uppercase btn btn-main">Get
+                                Started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item  h-100"
+                        style="background-image: linear-gradient(rgba(0, 0, 0, 0.509), rgba(0, 0, 0, 0.541)),url('images/slide-3.jpg');">
+                        <div class=" h-100 gap-3  d-flex justify-content-center align-items-center flex-column">
+                            <h2
+                                class="display-4 text-center fw-bold text-capitalize animate__animated animate__slideInDown">
+                                Temporibus autem quibusdam</h2>
+                            <p class="w-50 text-center animate__animated animate__slideInDown">Beatae vitae dicta sunt
+                                explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                                sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste
+                                natus error sit voluptatem accusantium.</p>
+                            <button class="animate__animated animate__slideInUp text-uppercase btn btn-main">Get
+                                Started</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+        </div>
+    </header>
+
+    <main>
+        <!-- ~-----------QUESTIONS---------- -->
+        <section class="questions bg-greyy  py-5" id="questions">
+            <div class="QandA w-75 m-auto">
+
+
+
+
+
+
+
+
+
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+
+
+                    <div class="accordion-item animate__animated animate__slideInUp">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                Non consectetur a erat nam at lectus urna duis?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                                curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus
+                                non.
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item animate__animated animate__slideInUp">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+
+                                Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
+                                pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
+                                turpis massa tincidunt dui.
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item animate__animated animate__slideInUp">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Dolor sit amet consectetur adipiscing elit pellentesque?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
+                                pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
+                                tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
+                                molestie at elementum eu facilisis sed odio morbi quis
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item animate__animated animate__slideInUp">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseFour">
+                                Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="accordion-body">
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
+                                pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
+                                turpis massa tincidunt dui.
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </section>
+        <!-- ~-----------PRODUCTS---------- -->
+        <section class="products py-5" id="products">
+            <div class="container">
+                <div class="title text-center pb-5">
+                    <h3 class="h1">Our Products</h3>
+                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                </div>
+
+                <ul class="nav nav-pills mb-3  w-fit m-auto" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-ALL" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">ALL</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">APP</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">CARD</button>
+                    </li>
+
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-WEB-tab" data-bs-toggle="pill" data-bs-target="#pills-WEB"
+                            type="button" role="tab" aria-controls="pills-WEB" aria-selected="false">WEB</button>
+                    </li>
+                </ul>
+
+
+                <div class="tab-content p-3 my-5" id="pills-tabContent">
+
+                    <div class="tab-pane fade show active" id="pills-ALL" role="tabpanel"
+                        aria-labelledby="pills-home-tab">
+                        <div class="row g-4">
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__zoomIn">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/1.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>APP 1</h5>
+                                        <h6 class="text-secondary">App</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__zoomIn">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/2.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>APP 2</h5>
+                                        <h6 class="text-secondary">App</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__zoomIn">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/3.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>APP 3</h5>
+                                        <h6 class="text-secondary">App</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__zoomIn">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/4.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>CARD 1</h5>
+                                        <h6 class="text-secondary">CARD</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__zoomIn">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/5.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>CARD 2</h5>
+                                        <h6 class="text-secondary">CARD</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__zoomIn">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/6.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>CARD 3</h5>
+                                        <h6 class="text-secondary">CARD</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__zoomIn">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/7.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>WEB 1</h5>
+                                        <h6 class="text-secondary">WEB</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__zoomIn">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/8.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>WEB 2</h5>
+                                        <h6 class="text-secondary">WEB</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__zoomIn">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/9.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>WEB 3</h5>
+                                        <h6 class="text-secondary">WEB</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="row g-4">
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__slideInLeft">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/1.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>APP 1</h5>
+                                        <h6 class="text-secondary">App</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__slideInUp">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/2.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>APP 2</h5>
+                                        <h6 class="text-secondary">App</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__slideInRight">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/3.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>APP 3</h5>
+                                        <h6 class="text-secondary">App</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+                        <div class="row g-4">
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__slideInLeft">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/4.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>CARD 1</h5>
+                                        <h6 class="text-secondary">CARD</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__slideInUp">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/5.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>CARD 2</h5>
+                                        <h6 class="text-secondary">CARD</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__slideInRight">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/6.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>CARD 3</h5>
+                                        <h6 class="text-secondary">CARD</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-WEB" role="tabpanel" aria-labelledby="pills-WEB-tab">
+                        <div class="row g-4">
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__fadeInDown">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/7.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>WEB 1</h5>
+                                        <h6 class="text-secondary">WEB</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__zoomIn">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/8.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>WEB 2</h5>
+                                        <h6 class="text-secondary">WEB</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-3 col-md-4 col-sm-6 animate__animated animate__zoomIn">
+                                <div class="item ">
+                                    <div class="item-img">
+                                        <img src="images/products/9.webp" alt="headphones" class="w-100">
+                                    </div>
+                                    <div class="item-layer   text-white">
+                                        <h5>WEB 3</h5>
+                                        <h6 class="text-secondary">WEB</h6>
+                                        <div class="icons">
+                                            <i class="cursor-POINTER fa-solid fa-plus"></i>
+                                            <i class="cursor-POINTER fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!-- ~-----------CONTACT---------- -->
+        <section class="contact  py-5" id="contact">
+            <div class="container">
+                <div class="title text-center pb-5">
+                    <h3 class="h1">Contact</h3>
+                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                </div>
+                <div class="contact-cards">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6  p-4 text-center ">
+                            <div class="address d-flex flex-column gap-2">
+                                <p><i class="mainColor fa-3x fa-fw fa-solid fa-location-dot"></i></p>
+                                <h5>Address</h5>
+                                <address>A108 Adam Street, New York, NY 535022</address>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6  p-4 text-center ">
+                            <div class="phone d-flex flex-column gap-2  border-inline">
+                                <p><i class="mainColor fa-solid fa-3x fa-phone fa-fw"></i></p>
+                                <h5>Call Us</h5>
+                                <a href="tel:+1 5589 55488 55">+1 5589 55488 55 </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6  p-4 text-center ">
+                            <div class="mail d-flex flex-column gap-2">
+                                <p><i class="mainColor fa-solid fa-3x fa-envelope"></i></p>
+                                <h5>Email Us</h5>
+                                <a
+                                    href="mailto:example@email.com?subject=Hello&body=I%20want%20to%20contact%20you">info@example.com</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form my-5 p-5">
+                    <div class="d-flex   gap-3">
+                        <div class="name w-100 form-floating mb-3">
+                            <input type="text" name="name" id="name" class="form-control" placeholder="name">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="mail w-100 form-floating mb-3">
+                            <input type="email" name="mail" id="mail" class="form-control" placeholder="mail">
+                            <label for="name">Your Email</label>
+                        </div>
+                    </div>
+                    <div class="subject w-100 form-floating mb-3">
+                        <input type="text" name="subject" id="subject" class="form-control" placeholder="subject">
+                        <label for="name">Subject</label>
+                    </div>
+                    <textarea placeholder="Message" class=" form-control"></textarea>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ~-----------FOOTER---------- -->
+    <footer class="bg-black p-4 text-center text-white">
+        <p>© Copyright Groovin All Rights Reserved</p>
+        <p>Made with <i class="mx-1 fa-solid fa-heart fa-beat text-danger"></i> By Asmaa Abdo @2025 </p>
+    </footer>
+    <!-- &---------Bootstrap js--------- -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
